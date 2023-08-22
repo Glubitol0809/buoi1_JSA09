@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Login form</h1>
+
+    <!-- Đăng ký -->
+    <form>
+        <h1>Tài khoản: </h1>
+         <input id="res_name" type="text" placeholder="User name">
+        <h1>Email: </h1>
+        <input id="res_email" type="email" placeholder="Email">
+        <h1>Mật khẩu: </h1>
+        <input id="res_pass" type="password" placeholder="Password">
+        <button type="button" id="sign_Up_Btn">Đăng ký</button>
+    </form>
+
+    <!-- Đăng nhập -->
+    <form>
+        <h1>Tài khoản: </h1>
+        <!-- login_userName sẽ là nơi để lấy userName đăng nhập -->
+        <input id="login_userName" type="text" placeholder="User name">
+        <h1>Mật khẩu: </h1>
+        <!-- login_password sẽ là nơi để lấy password cho việc đăng nhập -->
+        <input id="login_password" type="password" placeholder="Password">
+        <!-- sign_In_Btn sẽ chịu trách nhiệm công việc người dùng có đăng nhập được hay không -->
+        <button type="button" id="sign_In_Btn">Đăng nhập</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
